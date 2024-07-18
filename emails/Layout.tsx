@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="MaxLen"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,35 +47,35 @@ export default function Layout({
                   href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>MaxLen</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                生命不息 折腾不止
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
+                  href="https://x.com/maxlen727"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/youtube"
+                  href="https://youtube.com/@maxlen727"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://github.com/maxlen727"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/bilibili"
+                  href="https://space.bilibili.com/436833082"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

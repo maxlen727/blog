@@ -10,32 +10,10 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
+      努力成为
       <span className="font-mono">&lt;</span>开发者
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
-    </span>
-  )
-}
-
-function Designer() {
-  return (
-    <span className="group relative bg-black/5 p-1 dark:bg-white/5">
-      <span className="pointer-events-none absolute inset-0 border border-lime-700/90 opacity-70 group-hover:border-dashed group-hover:opacity-100 dark:border-lime-400/90">
-        <span className="absolute -left-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-[3.5px] -right-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-      </span>
-      设计师
-    </span>
-  )
-}
-
-function OCD() {
-  return (
-    <span className="group inline-flex items-center">
-      <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
     </span>
   )
 }
@@ -44,10 +22,19 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>学生</span>
     </span>
   )
 }
+function OCD() {
+  return (
+    <span className="group inline-flex items-center">
+      <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
+      <span>Linux爱好者</span>
+    </span>
+  )
+}
+
 
 export function Headline() {
   return (
@@ -63,7 +50,6 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
         <span className="block h-2" />
         <OCD />，<Founder />
       </motion.h1>
@@ -80,10 +66,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 MaxLen/苏婉轩。
+          学生、Linux爱好者、播客听众、Bloger. 对技术尤为感兴趣，最喜欢Rust语言。
+          期望成为全流程工程师。❤热爱一切美好的事物🥰愿意善待每一个人😊目标是创造只有爱的世界！
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +84,33 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://x.com/maxlen727"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
+          href="https://youtube.com/@maxlen727"
           aria-label="我的 YouTube"
           platform="youtube"
         />
         <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://space.bilibili.com/436833082"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/maxlen727"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://cali.so/tg"
+          href="https://t.me/maxlen727"
           aria-label="我的 Telegram"
           platform="telegram"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:maxlen@duck.com"
           aria-label="我的邮箱"
           platform="mail"
         />
